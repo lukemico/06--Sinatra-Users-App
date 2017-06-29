@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Database</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik+Mono+One" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <a href="/users">All Users</a>
+    <a href="/search">Search</a>
+  </nav>
+
+  <!-- Dynamic content to be loaded here -->
+  <hr>
+    <%= yield %>
+    <!-- Echoing ERB Delimiter -->
+  <hr>
+
+</body>
+</html>

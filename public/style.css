@@ -1,0 +1,19 @@
+body {
+  background-color: #f5fffa;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+font-family: 'Rubik Mono One', sans-serif;
+
+}
+a{
+  padding: 20px;
+  margin: 20px;
+}
+img {
+  margin: 80px;
+  border: 80px;
+}
